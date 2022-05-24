@@ -1,0 +1,43 @@
+.EngineOrderTelegraph {
+    color: white;
+    background-color: black;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.EngineOrderTelegraph div{
+    padding: 0 1em 0 1em;
+}
+
+.controlMovement:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.selected {
+    color: red;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.control > div{
+    display: flex;
+}
+
+
+.EngineOrderTelegraph .control{
+    border: white 1px solid;
+    text-align: center;
+}
+
+.EngineOrderTelegraph .astern div:nth-child(1){
+    text-align: center;
+}
+
+.EngineOrderTelegraph .ahead div:nth-child(1){
+    text-align: center;
+}
